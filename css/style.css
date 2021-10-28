@@ -1,0 +1,89 @@
+@import url(‘https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CPoppins:700’);
+
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.banner{
+  background-image: url(../images/tour.png);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 100%;
+  padding: 75px 0;
+}
+.banner h1{
+  color: #0C5470;
+  background-color: #C7A28A;
+  background-size: 10px;
+  border-radius: 10px;
+  font-size: 40px;
+  font-family: 'Oxygen', sans-serif;
+  width: 350;
+}
+.banner p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+.btn{
+  background-color: #0C5470;
+  border-radius: 30px;
+  color: white;
+  padding: 16px 36px;
+  text-align: center;
+  display: inline-block;
+}
+
+.button {
+  text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230 230 230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.card img{
+    height: 100px;
+}
+
+.container{
+  padding: 0 50px ;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #2c2b2b;
+}
+
+.footer a {
+    font-size: 30px;
+    color: #1EDD88;
+}
+
+.footer p {
+  font-size: 17px;
+    color: #636C6C;
+}
+
+.text-center {
+    text-align: center;
+}
